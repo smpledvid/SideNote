@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A2B8E4B1FBE969500BB0FD5 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B8E4A1FBE969500BB0FD5 /* PhotosViewController.swift */; };
+		0A2B8E4D1FBE96AA00BB0FD5 /* PhotoThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B8E4C1FBE96AA00BB0FD5 /* PhotoThumbnail.swift */; };
+		0A2B8E4F1FBE96D400BB0FD5 /* ViewPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B8E4E1FBE96D400BB0FD5 /* ViewPhoto.swift */; };
+		11012C801FAD402500C1A5A1 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11012C7F1FAD402500C1A5A1 /* ChecklistViewController.swift */; };
+		11012C821FAD404E00C1A5A1 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11012C811FAD404E00C1A5A1 /* TaskViewController.swift */; };
+		BA07CAEF1FA3F46800C3DB10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA07CAEE1FA3F46800C3DB10 /* AppDelegate.swift */; };
+		BA07CAF11FA3F46800C3DB10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA07CAF01FA3F46800C3DB10 /* ViewController.swift */; };
+		BA07CAF41FA3F46800C3DB10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA07CAF21FA3F46800C3DB10 /* Main.storyboard */; };
+		BA07CAF71FA3F46800C3DB10 /* Google_Keep.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA07CAF51FA3F46800C3DB10 /* Google_Keep.xcdatamodeld */; };
+		BA07CAF91FA3F46800C3DB10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA07CAF81FA3F46800C3DB10 /* Assets.xcassets */; };
+		BA07CAFC1FA3F46800C3DB10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA07CAFA1FA3F46800C3DB10 /* LaunchScreen.storyboard */; };
+		BA07CB041FA3F51C00C3DB10 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA07CB031FA3F51C00C3DB10 /* TableViewController.swift */; };
+		D373ACD81FBCE7C100B186CF /* RemindersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D373ACD71FBCE7C100B186CF /* RemindersTableViewController.swift */; };
+		D373ACDA1FBD138800B186CF /* AddReminderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D373ACD91FBD138800B186CF /* AddReminderTableViewController.swift */; };
+		D373ACDE1FBF548200B186CF /* LabelsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D373ACDD1FBF548200B186CF /* LabelsTableViewController.swift */; };
+		D37FDB711FB8F66900801218 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37FDB701FB8F66900801218 /* NotesViewController.swift */; };
+		D37FDB731FB90AEF00801218 /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37FDB721FB90AEF00801218 /* AddNoteViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A2B8E4A1FBE969500BB0FD5 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		0A2B8E4C1FBE96AA00BB0FD5 /* PhotoThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoThumbnail.swift; sourceTree = "<group>"; };
+		0A2B8E4E1FBE96D400BB0FD5 /* ViewPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPhoto.swift; sourceTree = "<group>"; };
+		0A2B8E501FBE9F3F00BB0FD5 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Photos.framework; sourceTree = "<group>"; };
+		11012C7F1FAD402500C1A5A1 /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
+		11012C811FAD404E00C1A5A1 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		BA07CAEB1FA3F46800C3DB10 /* Google Keep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google Keep.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA07CAEE1FA3F46800C3DB10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA07CAF01FA3F46800C3DB10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA07CAF31FA3F46800C3DB10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA07CAF61FA3F46800C3DB10 /* Google_Keep.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Google_Keep.xcdatamodel; sourceTree = "<group>"; };
+		BA07CAF81FA3F46800C3DB10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA07CAFB1FA3F46800C3DB10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA07CAFD1FA3F46800C3DB10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA07CB031FA3F51C00C3DB10 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D373ACD71FBCE7C100B186CF /* RemindersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersTableViewController.swift; sourceTree = "<group>"; };
+		D373ACD91FBD138800B186CF /* AddReminderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderTableViewController.swift; sourceTree = "<group>"; };
+		D373ACDD1FBF548200B186CF /* LabelsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelsTableViewController.swift; sourceTree = "<group>"; };
+		D37FDB701FB8F66900801218 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		D37FDB721FB90AEF00801218 /* AddNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA07CAE81FA3F46700C3DB10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA07CAE21FA3F46700C3DB10 = {
+			isa = PBXGroup;
+			children = (
+				0A2B8E501FBE9F3F00BB0FD5 /* Photos.framework */,
+				BA07CAED1FA3F46800C3DB10 /* Google Keep */,
+				BA07CAEC1FA3F46800C3DB10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA07CAEC1FA3F46800C3DB10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA07CAEB1FA3F46800C3DB10 /* Google Keep.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA07CAED1FA3F46800C3DB10 /* Google Keep */ = {
+			isa = PBXGroup;
+			children = (
+				BA07CAEE1FA3F46800C3DB10 /* AppDelegate.swift */,
+				BA07CAF01FA3F46800C3DB10 /* ViewController.swift */,
+				BA07CB031FA3F51C00C3DB10 /* TableViewController.swift */,
+				BA07CAF21FA3F46800C3DB10 /* Main.storyboard */,
+				D373ACDD1FBF548200B186CF /* LabelsTableViewController.swift */,
+				D37FDB701FB8F66900801218 /* NotesViewController.swift */,
+				D37FDB721FB90AEF00801218 /* AddNoteViewController.swift */,
+				D373ACD71FBCE7C100B186CF /* RemindersTableViewController.swift */,
+				D373ACD91FBD138800B186CF /* AddReminderTableViewController.swift */,
+				11012C811FAD404E00C1A5A1 /* TaskViewController.swift */,
+				11012C7F1FAD402500C1A5A1 /* ChecklistViewController.swift */,
+				BA07CAF81FA3F46800C3DB10 /* Assets.xcassets */,
+				BA07CAFA1FA3F46800C3DB10 /* LaunchScreen.storyboard */,
+				BA07CAFD1FA3F46800C3DB10 /* Info.plist */,
+				BA07CAF51FA3F46800C3DB10 /* Google_Keep.xcdatamodeld */,
+				0A2B8E4A1FBE969500BB0FD5 /* PhotosViewController.swift */,
+				0A2B8E4C1FBE96AA00BB0FD5 /* PhotoThumbnail.swift */,
+				0A2B8E4E1FBE96D400BB0FD5 /* ViewPhoto.swift */,
+			);
+			path = "Google Keep";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA07CAEA1FA3F46700C3DB10 /* Google Keep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA07CB001FA3F46800C3DB10 /* Build configuration list for PBXNativeTarget "Google Keep" */;
+			buildPhases = (
+				BA07CAE71FA3F46700C3DB10 /* Sources */,
+				BA07CAE81FA3F46700C3DB10 /* Frameworks */,
+				BA07CAE91FA3F46700C3DB10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Google Keep";
+			productName = "Google Keep";
+			productReference = BA07CAEB1FA3F46800C3DB10 /* Google Keep.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA07CAE31FA3F46700C3DB10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "David Liang";
+				TargetAttributes = {
+					BA07CAEA1FA3F46700C3DB10 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 23BS9M87J5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BA07CAE61FA3F46700C3DB10 /* Build configuration list for PBXProject "Google Keep" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA07CAE21FA3F46700C3DB10;
+			productRefGroup = BA07CAEC1FA3F46800C3DB10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA07CAEA1FA3F46700C3DB10 /* Google Keep */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA07CAE91FA3F46700C3DB10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA07CAFC1FA3F46800C3DB10 /* LaunchScreen.storyboard in Resources */,
+				BA07CAF91FA3F46800C3DB10 /* Assets.xcassets in Resources */,
+				BA07CAF41FA3F46800C3DB10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA07CAE71FA3F46700C3DB10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA07CAF11FA3F46800C3DB10 /* ViewController.swift in Sources */,
+				0A2B8E4D1FBE96AA00BB0FD5 /* PhotoThumbnail.swift in Sources */,
+				0A2B8E4B1FBE969500BB0FD5 /* PhotosViewController.swift in Sources */,
+				BA07CAEF1FA3F46800C3DB10 /* AppDelegate.swift in Sources */,
+				D373ACDE1FBF548200B186CF /* LabelsTableViewController.swift in Sources */,
+				BA07CAF71FA3F46800C3DB10 /* Google_Keep.xcdatamodeld in Sources */,
+				D37FDB711FB8F66900801218 /* NotesViewController.swift in Sources */,
+				D373ACD81FBCE7C100B186CF /* RemindersTableViewController.swift in Sources */,
+				D373ACDA1FBD138800B186CF /* AddReminderTableViewController.swift in Sources */,
+				D37FDB731FB90AEF00801218 /* AddNoteViewController.swift in Sources */,
+				0A2B8E4F1FBE96D400BB0FD5 /* ViewPhoto.swift in Sources */,
+				11012C801FAD402500C1A5A1 /* ChecklistViewController.swift in Sources */,
+				BA07CB041FA3F51C00C3DB10 /* TableViewController.swift in Sources */,
+				11012C821FAD404E00C1A5A1 /* TaskViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA07CAF21FA3F46800C3DB10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA07CAF31FA3F46800C3DB10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA07CAFA1FA3F46800C3DB10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA07CAFB1FA3F46800C3DB10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA07CAFE1FA3F46800C3DB10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA07CAFF1FA3F46800C3DB10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA07CB011FA3F46800C3DB10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23BS9M87J5;
+				INFOPLIST_FILE = "Google Keep/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "davidliang.Google-Keep";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BA07CB021FA3F46800C3DB10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23BS9M87J5;
+				INFOPLIST_FILE = "Google Keep/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "davidliang.Google-Keep";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA07CAE61FA3F46700C3DB10 /* Build configuration list for PBXProject "Google Keep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA07CAFE1FA3F46800C3DB10 /* Debug */,
+				BA07CAFF1FA3F46800C3DB10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA07CB001FA3F46800C3DB10 /* Build configuration list for PBXNativeTarget "Google Keep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA07CB011FA3F46800C3DB10 /* Debug */,
+				BA07CB021FA3F46800C3DB10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA07CAF51FA3F46800C3DB10 /* Google_Keep.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA07CAF61FA3F46800C3DB10 /* Google_Keep.xcdatamodel */,
+			);
+			currentVersion = BA07CAF61FA3F46800C3DB10 /* Google_Keep.xcdatamodel */;
+			path = Google_Keep.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BA07CAE31FA3F46700C3DB10 /* Project object */;
+}
